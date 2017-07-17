@@ -9,6 +9,8 @@ namespace FizzBuzz
         [SetUp]
         public void Setup()
         {
+			
+			
             var rules = new List<IRule>();
             rules.Add(new FizzRule());
             rules.Add(new BuzzRule());
